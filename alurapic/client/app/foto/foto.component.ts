@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 
 export class FotoComponent {
 
-  @Input() title;
-  @Input() url;
+  @Input() titulo: string;
+  @Input() url: string;
+  descricao: string;
 }
